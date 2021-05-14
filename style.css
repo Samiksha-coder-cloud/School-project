@@ -1,0 +1,106 @@
+#myNavbar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+#map iframe {
+    width: 50%;
+    float: left;
+}
+
+#gos {
+    text-align: center;
+    height: 250px;
+    width: 760px;
+    border-color: blueviolet;
+
+}
+
+body {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.campus_mainDiv img {
+    height: 300px;
+    width: 100%;
+}
+
+.campus_mainDiv {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ed1346;
+}
+
+#pre_image {
+    padding-bottom: 10px;
+}
+
+.pre_programs {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#pri_image {
+    padding-bottom: 10px;
+}
+
+.pri_programs {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#sec_image {
+    padding-bottom: 10px;
+}
+
+.sec_programs {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.pre-text {
+    font-size: 17px;
+}
+
+.pri-text {
+    font-size: 17px;
+}
+
+.sec-text {
+    font-size: 17px;
+}
+
+.pri-text h5{
+    font-size: 20;
+}
+
+.pre-text h5{
+    font-size: 20;
+}
+
+.sec-text h5{
+    font-size: 20;
+}
