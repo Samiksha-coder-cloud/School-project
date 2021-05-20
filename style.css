@@ -1,4 +1,4 @@
-#myNavbar {
+#myNavbar
     position: sticky;
     top: 0;
     z-index: 99999;
@@ -19,6 +19,7 @@
 
 body {
     text-align: center;
+    background-color: paleturquoise;
 }
 
 .row::after {
@@ -111,4 +112,33 @@ body {
 
 .whatsNew1 p {
     padding-top: 70px;
+}
+
+#gos_image {
+    height: 70px;
+    width: 70px;
+}
+
+#marqueeStyle {
+    background-color: cornflowerblue;
+    color: crimson;
+    font-size: 20px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img-modal {
+    display: inline-block;
+    height: 400px;
+    width: 500px;
+}
+
+.p-modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center;
 }
